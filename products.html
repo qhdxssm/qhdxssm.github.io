@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>产品展示 - 秦皇岛靖铎科技有限公司</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f3f6f9;
+        color: #333;
+    }
+
+    header {
+        background-image: url('image/background1.jpg');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-align: center;
+        padding: 80px 0;
+    }
+
+    header img {
+        width: 70px;
+        height: auto;
+        margin-right: 15px;
+    }
+
+    header h1 {
+        font-size: 3rem;
+        background-color: rgba(0, 77, 64, 0.75);
+        display: inline-block;
+        padding: 15px 25px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    nav a {
+        color: white;
+        margin: 0 15px;
+        font-size: 1.1rem;
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+        color: #e0f2f1;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+
+    .card {
+        border: none;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card-title {
+        color: #004d40;
+        font-weight: bold;
+    }
+
+    .btn-custom {
+        background-color: #00695c;
+        color: white;
+        border-radius: 20px;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-custom:hover {
+        background-color: #004d40;
+    }
+
+    footer {
+        background-color: #004d40;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        margin-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+        header h1 {
+            font-size: 2rem;
+            padding: 10px 15px;
+        }
+
+        nav {
+            text-align: center;
+        }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="image/logo_1.jpg" alt="Company Logo">
+  <h1>秦皇岛靖铎科技有限公司</h1>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">公司首页</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">服务</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">关于我们</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">经营范围</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#products">产品展示</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">联系我们</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <section id="products" class="products my-5">
+    <h2 class="mb-4 text-center text-success">产品展示</h2>
+    <div class="row">
+      <!-- 产品1 -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="image/product1.jpg" class="card-img-top" alt="产品1">
+          <div class="card-body">
+            <h5 class="card-title">硅铁</h5>
+            <p class="card-text">高纯度硅锰铁，确保客户的冶金需求。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 产品2 -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="image/product2.jpg" class="card-img-top" alt="产品2">
+          <div class="card-body">
+            <h5 class="card-title">中碳锰铁 </h5>
+            <p class="card-text">提供多种规格的硅锰铁，适用于不同应用。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 产品3 -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="image/product3.jpg" class="card-img-top" alt="产品3">
+          <div class="card-body">
+            <h5 class="card-title">高碳铬铁</h5>
+            <p class="card-text">广泛应用于冶金行业的高碳铬铁产品。</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2024 秦皇岛靖铎科技有限公司. 版权所有.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
